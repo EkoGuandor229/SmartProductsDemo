@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <EditText
+        android:id="@+id/senderMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="From"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/recieverMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/senderMail"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="To"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recieverMail"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Subject"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/mailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subject"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/sendMail"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="Compose Email"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/sendMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:text="Send Email" />
+
+
+</RelativeLayout>

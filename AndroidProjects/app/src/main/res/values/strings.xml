@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+    <string name="Version">V 1.0</string>
+    <string name="www_tartarus_hell">www.tartarus.hell</string>
+    <string name="loginButton">Login</string>
+    <string name="passwordHint">password</string>
+    <string name="keepLoggedIn">keep me logged in</string>
+    <string name="mailHint">email address</string>
+</resources>
